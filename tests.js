@@ -6,16 +6,16 @@ function groupAnimals(animals) {
     for (var i = 0; i < kamus.length; i++) {
         for (var j = 0; j < animals.length; j++) {
            if (kamus[i] === animals[j][0]) {
-               temp.push([animals[j]])  
+               temp.push(animals[j])  
                             
-           } 
+           }          
         }
-        // result.push(temp);
-        // temp = [];   
+        result.push(temp);
+        temp = [];   
        
     }
     //console.log(temp)
-    return temp;
+    return result;
    
     
     
