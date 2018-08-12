@@ -48,7 +48,7 @@ function dataHandling2(param) {
             break;
     }
     console.log(bulan)
-    arr.sort(function(value1, value2) { return value1 < value2 });
+    arr.sort(function(A, Z) { return A < Z });
     console.log(arr); 
     console.log(arr.join('-'));
     console.log(param[1].slice(0,14))
